@@ -27,6 +27,7 @@ function Header() {
     <header style={headerStyle}>
       <nav>
         <ul style={navStyle}>
+          <li style={navItemStyle}><Link to="https://github.com/ELECTROKARIM"><h1>ELECTROKARIM</h1></Link></li>
           <li style={navItemStyle}><Link to="/" style={navLinkStyle}>Accueil</Link></li>
           <li style={navItemStyle}><Link to="/projects" style={navLinkStyle}>Projets</Link></li>
           <li style={navItemStyle}><Link to="/blog" style={navLinkStyle}>Blog</Link></li>

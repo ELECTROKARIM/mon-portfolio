@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <section style={sectionStyle}>
       <h1>Bienvenue sur mon portfolio</h1>
-      <p>Je suis ELECTROKARIM, un développeur web passionné.</p>
+      <p>Je suis ELECTROKARIM, un développeur web passionné par son métier.</p>
 
       <div style={progressContainerStyle}>
-        <div className="progress-bar" style={{ width: '80%', backgroundColor: '#4caf50' }}>
+        <div className="progress-bar" style={{ width: '95%', backgroundColor: '#4caf50' }}>
           <span className="progress-label">HTML/CSS</span>
           <div className="bubble-effect">
             <div className="bubble"></div>
@@ -15,7 +15,7 @@ const Home = () => {
             <div className="bubble"></div>
           </div>
         </div>
-        <div className="progress-bar" style={{ width: '70%', backgroundColor: '#2196f3' }}>
+        <div className="progress-bar" style={{ width: '80%', backgroundColor: '#2196f3' }}>
           <span className="progress-label">JavaScript</span>
           <div className="bubble-effect">
             <div className="bubble"></div>
@@ -23,7 +23,7 @@ const Home = () => {
             <div className="bubble"></div>
           </div>
         </div>
-        <div className="progress-bar" style={{ width: '60%', backgroundColor: '#ff5722' }}>
+        <div className="progress-bar" style={{ width: '90%', backgroundColor: '#ff5722' }}>
           <span className="progress-label">React</span>
           <div className="bubble-effect">
             <div className="bubble"></div>
@@ -31,7 +31,7 @@ const Home = () => {
             <div className="bubble"></div>
           </div>
         </div>
-        <div className="progress-bar" style={{ width: '50%', backgroundColor: '#9c27b0' }}>
+        <div className="progress-bar" style={{ width: '70%', backgroundColor: '#9c27b0' }}>
           <span className="progress-label">Node.js</span>
           <div className="bubble-effect">
             <div className="bubble"></div>
@@ -43,6 +43,13 @@ const Home = () => {
 
       <style>
         {`
+          section {
+            background-image: url('https://i0.wp.com/www.triomphe-securite.fr/wp-content/uploads/2014/07/fond_ACCUEIL-choisir.png?ssl=1');
+            background-size: cover;
+            background-position: center;
+            color: white;
+          }
+
           .progress-bar {
             position: relative;
             background-color: #eee;
@@ -148,6 +155,7 @@ const Home = () => {
               opacity: 0;
             }
           }
+            
         `}
       </style>
     </section>
